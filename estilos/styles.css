@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.padre{
+    border: 2px #000 dotted;
+    display: block;
+    width: 500px;
+}
+
+.box{
+    display: inline-block;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+#dos{
+    background-color: green;
+    position: static;
+    position: absolute;
+    position: relative;
+    position: fixed;
+    position: sticky;
+
+    position: absolute;
+    top: 40px;
+}
